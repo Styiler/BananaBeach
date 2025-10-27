@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banana Beach Mui Ne - Beach Cafe in Vietnam</title>
+    <meta name="description" content="Relaxation, food, and the best sunsets in Mui Ne! Banana Beach - your place in the sun. Bike rentals, help with accommodation, delicious seafood, and an unforgettable atmosphere.">
+    <meta name="keywords" content="Banana Beach, Mui Ne, Vietnam, beach cafe, seafood, bike rental, vacation">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: 'Poppins', sans-serif;
+        color: #1f2937; /* gray-800 */
+        background: linear-gradient(300deg, #a7f3d0, #bae6fd, #a3e635, #67e8f9);
+        background-size: 240% 240%;
+        animation: mesh-gradient 20s ease infinite;
+        transition: background 0.5s ease;
+      }
+      .dark body {
+        color: #e5e7eb; /* gray-200 */
+        background: linear-gradient(300deg, #052e16, #0c4a6e, #166534, #0e7490);
+        background-size: 240% 240%;
+        animation: mesh-gradient-dark 20s ease infinite;
+      }
+
+      @keyframes mesh-gradient {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+       @keyframes mesh-gradient-dark {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+
+      .scroll-snap-x {
+        scroll-snap-type: x mandatory;
+      }
+      .scroll-snap-center {
+        scroll-snap-align: center;
+      }
+      .animated-gradient-text {
+        background: linear-gradient(45deg, #34d399, #fde047, #60a5fa, #34d399);
+        background-size: 300% auto;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        animation: gradient-flow 10s ease infinite;
+      }
+      @keyframes gradient-flow {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      .card-face {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-Cm_BPZsd.js"></script>
+</head>
+  <body class="antialiased">
+    <div id="root"></div>
+  </body>
+</html>
